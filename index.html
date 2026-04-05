@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhumika Patidar | Java Backend Developer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #cbd5f5;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    color: white;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #94a3b8;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 25px;
+}
+
+button {
+    padding: 12px 22px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #38bdf8;
+    color: black;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.contact-info a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* Image */
+.hero img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+/* Projects */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero img {
+        margin-top: 20px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Portfolio</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Bhumika Patidar</h1>
+        <p>Java Backend Developer | Spring Boot | REST APIs</p>
+
+        <div class="buttons">
+            <a href="Bhumika patidar_java.pdf" download>
+                <button class="btn-primary">Download Resume</button>
+            </a>
+
+            <a href="Bhumika patidar_java.pdf" target="_blank">
+                <button class="btn-secondary">View Resume</button>
+            </a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p>📧 <a href="mailto:shanupatidar46@gmail.com">shanupatidar46@gmail.com</a></p>
+            <p>📱 <a href="tel:9340173910">9340173910</a></p>
+        </div>
+
+    </div>
+
+    <img src="shanu_imresizer.jpg" alt="Profile Photo">
+</div>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Java Backend Developer skilled in Spring Boot, Hibernate, and REST APIs.
+        Experienced in building scalable backend systems and writing clean, maintainable code.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Spring MVC</span>
+        <span>Hibernate</span>
+        <span>REST APIs</span>
+        <span>MySQL</span>
+        <span>PostgreSQL</span>
+        <span>Git</span>
+        <span>JUnit</span>
+        <span>Mockito</span>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Bank Transaction Management System</h3>
+        <p>
+            Developed backend banking system using Java and Spring Boot.
+            Implemented REST APIs, database integration, and secure transactions.
+        </p>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Bhumika Patidar | Java Developer</p>
+</footer>
+
+</body>
+</html>
